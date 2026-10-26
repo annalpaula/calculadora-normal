@@ -1,0 +1,44 @@
+.Calculadora{
+    margin: 50px auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 40%;
+    background-color: rgb(243, 193, 255);
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    padding: 8px;
+    border: none;
+    border: 8px;
+    font-size: 20px;
+    width: 40%;
+
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(145, 55, 172);
+    color: rgb(225, 222, 219);
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#resultado{
+    display: inline-block;
+    min-width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(145, 55, 172);
+    border: 2px solid black;
+    border-radius:8px ;
+    font-weight: bold;
+    text-align: center;
+}
+
+#limpar{
+    background-color: rgb(59, 13, 62);
+}
